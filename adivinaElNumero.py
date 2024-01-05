@@ -15,7 +15,7 @@ def adivinaElNumero(x): # def crea la funcion "adivinaElNumero"
 
     while prediccion != numeroAleatorio :
         # input devuelve siempre una cadena de caracteres, asique convierto con int
-        prediccion = int(input(f"Adivina un numero entre 1 y {x}: ")) 
+        prediccion = int(input(f"Adivina un numero entre 1 y {x}: ")) #f-string (permite reemplazar el valor de una variable o expresion en una cadena)
 
         if prediccion < numeroAleatorio:
             print("Intenta otra vez. El que elegiste es muy chico")
